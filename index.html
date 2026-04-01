@@ -670,7 +670,7 @@
     <li><a href="#features">Features</a></li>
     <li><a href="#pricing">Pricing</a></li>
   </ul>
-  <button class="nav-cta" onclick="document.getElementById('waitlist').scrollIntoView({behavior:'smooth'})">Join Waitlist</button>
+  <button class="nav-cta" onclick="window.open('https://tally.so/r/gDZ901', '_blank')">Join Waitlist</button>
 </nav>
 
 <!-- HERO -->
@@ -689,7 +689,7 @@
   </p>
 
   <div class="hero-actions">
-    <button class="btn-primary" onclick="document.getElementById('waitlist').scrollIntoView({behavior:'smooth'})">
+    <button class="btn-primary" onclick="window.open('https://tally.so/r/gDZ901', '_blank')">
       Get Early Access — Free
     </button>
     <button class="btn-ghost" onclick="document.getElementById('how').scrollIntoView({behavior:'smooth'})">
@@ -920,7 +920,7 @@
           <li><span class="check">✓</span> Basic cash flow dashboard</li>
           <li><span class="check">✓</span> Weekly email summary</li>
         </ul>
-        <button class="pricing-btn outline">Get Started Free</button>
+        <button class="pricing-btn outline" onclick="window.open('https://tally.so/r/gDZ901', '_blank')">Get Started Free</button>
       </div>
 
       <div class="pricing-card featured reveal">
@@ -936,7 +936,7 @@
           <li><span class="check">✓</span> Smart alerts & tax reminders</li>
           <li><span class="check">✓</span> Monthly financial report</li>
         </ul>
-        <button class="pricing-btn primary">Start 14-Day Free Trial</button>
+        <button class="pricing-btn primary" onclick="window.open('https://tally.so/r/gDZ901', '_blank')">Start 14-Day Free Trial</button>
       </div>
 
       <div class="pricing-card reveal">
@@ -951,7 +951,7 @@
           <li><span class="check">✓</span> R&D tax credit detection</li>
           <li><span class="check">✓</span> Priority support</li>
         </ul>
-        <button class="pricing-btn outline">Start 14-Day Free Trial</button>
+        <button class="pricing-btn outline" onclick="window.open('https://tally.so/r/gDZ901', '_blank')">Start 14-Day Free Trial</button>
       </div>
     </div>
   </div>
@@ -1020,9 +1020,7 @@
   // Waitlist form
   function handleSubmit(e) {
     e.preventDefault();
-    document.getElementById('email-input').value = '';
-    document.getElementById('success-msg').style.display = 'block';
-    document.querySelector('.waitlist-form').style.display = 'none';
+    window.open('https://tally.so/r/gDZ901', '_blank');
   }
 
   // Subtle number counter animation
